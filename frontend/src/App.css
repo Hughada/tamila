@@ -1,0 +1,23 @@
+/* Custom styles for Tamila Hachemi website */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove default margin */
+.App {
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom selection color */
+::selection {
+    background-color: #D4A574;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: #D4A574;
+    color: white;
+}
